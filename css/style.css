@@ -1,6 +1,7 @@
 @supports (backdrop-filter: blur(5px)) {
   .blur {
     background: rgba(255,255,255,0.7) !important;
+    -webkit-backdrop-filter: saturate(200%) blur(5px);
     backdrop-filter: saturate(200%) blur(5px);
   }
 }
@@ -5195,6 +5196,7 @@ ul.list-v >li>a.active {
 @supports (backdrop-filter: blur(5px)) {
   .aplayer {
     background: rgba(255,255,255,0.7) !important;
+    -webkit-backdrop-filter: saturate(200%) blur(5px);
     backdrop-filter: saturate(200%) blur(5px);
   }
 }
